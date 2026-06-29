@@ -9,9 +9,10 @@ Documents are split by language into separate folders: [`docs/en`](docs/en) (pri
 
 ## Documents
 
-| #   | Topic              | English                                          | Español                                       |
-| --- | ------------------ | ------------------------------------------------ | --------------------------------------------- |
-| 01  | What Is Software?  | [en/01-what-is-software.md](docs/en/01-what-is-software.md) | [es/01-que-es-software.md](docs/es/01-que-es-software.md) |
+| #   | Topic                          | English                                                          | Español                                                       |
+| --- | ------------------------------ | --------------------------------------------------------------- | ------------------------------------------------------------- |
+| 01  | What Is Software?              | [en/01-what-is-software.md](docs/en/01-what-is-software.md)      | [es/01-que-es-software.md](docs/es/01-que-es-software.md)      |
+| 02  | Where Is the Model? (Source Code Is the Design) | [en/02-where-is-the-model.md](docs/en/02-where-is-the-model.md)  | [es/02-cual-es-el-modelo.md](docs/es/02-cual-es-el-modelo.md) |
 
 ## Structure of each document
 

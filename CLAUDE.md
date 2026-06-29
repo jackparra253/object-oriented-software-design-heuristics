@@ -9,9 +9,10 @@ every design and implementation decision in this repo.**
 Read and apply these before designing or writing code. English is primary; the `es/` files are
 translations of the same content.
 
-| Topic              | Document                              |
-| ------------------ | ------------------------------------- |
-| What Is Software?  | `docs/en/01-what-is-software.md`      |
+| Topic                                           | Document                              |
+| ----------------------------------------------- | ------------------------------------- |
+| What Is Software?                               | `docs/en/01-what-is-software.md`      |
+| Where Is the Model? (Source Code Is the Design) | `docs/en/02-where-is-the-model.md`    |
 
 ## Working principles (summary)
 
@@ -26,6 +27,11 @@ These come from the documents above; the documents are the source of truth.
 6. **Specify the *what* and implement the *how*.** Software must be executable.
 7. **Design is the deliberate move from an ambiguous, contextual domain to a formal, executable
    model.**
+8. **Source code is the design.** It is the single source of truth for the model; programming is
+   designing. Diagrams and docs only visualize it.
+9. **The build is free; the design is the cost.** Compilation produces the executable; effort and
+   estimates belong on the code. Treat testing and debugging as design (validation and refinement).
+10. **The model is dynamic.** It executes and its state changes over time; design accordingly.
 
 ## Conventions
 
