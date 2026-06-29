@@ -14,6 +14,7 @@ translations of the same content.
 | What Is Software?                               | `docs/en/01-what-is-software.md`      |
 | Where Is the Model? (Source Code Is the Design) | `docs/en/02-where-is-the-model.md`    |
 | What Makes a Good Model? (Three Axes)           | `docs/en/03-good-model.md`            |
+| Software Development as a Learning Process       | `docs/en/04-software-development.md`  |
 
 ## Working principles (summary)
 
@@ -38,6 +39,12 @@ These come from the documents above; the documents are the source of truth.
     represents the domain).
 12. **Aim for a 1:1 domain–model correspondence.** New domain cases should be added, not patched in;
     one domain change should map to one model change (open–closed).
+13. **Development is a learning process.** Work iteratively and incrementally; ground knowledge in
+    concrete facts; make tacit domain knowledge explicit in the model.
+14. **Change is essential, not accidental.** The domain, your understanding, and your modeling all
+    shift over time; design so change is cheap and learning capacity is preserved.
+15. **Shorten the feedback loop.** Immediate feedback (fast tests, live console) is the engine of
+    learning; apply the scientific method — characterize, hypothesize, predict, experiment.
 
 ## Conventions
 
