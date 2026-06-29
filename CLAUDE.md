@@ -16,6 +16,7 @@ translations of the same content.
 | What Makes a Good Model? (Three Axes)           | `docs/en/03-good-model.md`            |
 | Software Development as a Learning Process       | `docs/en/04-software-development.md`  |
 | What Is an Object?                              | `docs/en/05-what-is-an-object.md`     |
+| Why Heuristics, Not Principles or Rules?        | `docs/en/06-why-heuristics.md`        |
 
 ## Working principles (summary)
 
@@ -49,6 +50,9 @@ These come from the documents above; the documents are the source of truth.
 16. **An object is the essential representation of a domain entity — not "code + data".** Define it
     by the messages it responds to (its protocol), not by its internal data; capture the essence and
     remove the incidental.
+17. **All design guidance here is heuristics, not rules.** Apply each in context, expect exceptions,
+    weigh cost vs. benefit, and think critically — never follow guidance dogmatically or by
+    authority.
 
 ## Conventions
 
