@@ -18,6 +18,7 @@ translations of the same content.
 | What Is an Object?                              | `docs/en/05-what-is-an-object.md`     |
 | Why Heuristics, Not Principles or Rules?        | `docs/en/06-why-heuristics.md`        |
 | H1 — One Object per Entity                      | `docs/en/07-h1-object-per-entity.md`  |
+| H2 — Create Objects Complete                    | `docs/en/08-h2-complete-objects.md`   |
 
 ## Working principles (summary)
 
@@ -58,6 +59,9 @@ These come from the documents above; the documents are the source of truth.
     one entity across many fields, never overload one object/primitive to mean many entities (fix
     Primitive Obsession). Name the entity for what it really is; prefer the right existing type over
     a needless new class.
+19. **H2 — create objects complete.** An object must be valid and faithful from the moment it exists;
+    require what it needs in its constructor, avoid post-construction setters and temporal coupling.
+    Uninitialized fields signal "split into two objects"; use a Builder for complex construction.
 
 ## Conventions
 
