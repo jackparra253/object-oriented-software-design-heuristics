@@ -21,6 +21,7 @@ translations of the same content.
 | H2 — Create Objects Complete                    | `docs/en/08-h2-complete-objects.md`   |
 | H3 — Only Create Valid Objects                  | `docs/en/09-h3-valid-objects.md`      |
 | H4 — Don't Use Null                             | `docs/en/10-h4-no-null.md`            |
+| H5 — Favor Immutable Objects                    | `docs/en/11-h5-immutable-objects.md`  |
 
 ## Working principles (summary)
 
@@ -75,6 +76,12 @@ These come from the documents above; the documents are the source of truth.
     typed languages make "maybe absent" explicit with Optional/Maybe. Keep absence inside the object
     (Explicit Absent Message over safe-navigation `&.`); don't write defensive null-checks on
     parameters.
+22. **H5 — favor immutable objects.** Mutability is a modeling choice, not a technical one: an object
+    is mutable iff the entity it represents is. Default to immutable (numbers, dates, invoices,
+    strings…); model change as a sequence of events producing new immutable objects when you can.
+    Immutables free you from worrying about time and from the consequences of handing out the object.
+    For genuinely mutable objects: avoid setters, make changes atomic and valid (H3), let the owner
+    control mutation, hand out copies/immutable views, and protect identity, equality, and hashing.
 
 ## Conventions
 
