@@ -17,6 +17,7 @@ translations of the same content.
 | Software Development as a Learning Process       | `docs/en/04-software-development.md`  |
 | What Is an Object?                              | `docs/en/05-what-is-an-object.md`     |
 | Why Heuristics, Not Principles or Rules?        | `docs/en/06-why-heuristics.md`        |
+| H1 — One Object per Entity                      | `docs/en/07-h1-object-per-entity.md`  |
 
 ## Working principles (summary)
 
@@ -53,6 +54,10 @@ These come from the documents above; the documents are the source of truth.
 17. **All design guidance here is heuristics, not rules.** Apply each in context, expect exceptions,
     weigh cost vs. benefit, and think critically — never follow guidance dogmatically or by
     authority.
+18. **H1 — one object per entity (faithful representation).** Keep a 1:1 correspondence: never split
+    one entity across many fields, never overload one object/primitive to mean many entities (fix
+    Primitive Obsession). Name the entity for what it really is; prefer the right existing type over
+    a needless new class.
 
 ## Conventions
 

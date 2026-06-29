@@ -17,6 +17,7 @@ Documents are split by language into separate folders: [`docs/en`](docs/en) (pri
 | 04  | Software Development as a Learning Process | [en/04-software-development.md](docs/en/04-software-development.md) | [es/04-desarrollo-de-software.md](docs/es/04-desarrollo-de-software.md) |
 | 05  | What Is an Object?              | [en/05-what-is-an-object.md](docs/en/05-what-is-an-object.md)    | [es/05-que-es-un-objeto.md](docs/es/05-que-es-un-objeto.md)  |
 | 06  | Why Heuristics, Not Principles or Rules? | [en/06-why-heuristics.md](docs/en/06-why-heuristics.md)          | [es/06-por-que-heuristica.md](docs/es/06-por-que-heuristica.md) |
+| 07  | H1 — One Object per Entity      | [en/07-h1-object-per-entity.md](docs/en/07-h1-object-per-entity.md) | [es/07-h1-objeto-por-ente.md](docs/es/07-h1-objeto-por-ente.md) |
 
 ## Structure of each document
 
