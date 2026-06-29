@@ -19,6 +19,7 @@ Documents are split by language into separate folders: [`docs/en`](docs/en) (pri
 | 06  | Why Heuristics, Not Principles or Rules? | [en/06-why-heuristics.md](docs/en/06-why-heuristics.md)          | [es/06-por-que-heuristica.md](docs/es/06-por-que-heuristica.md) |
 | 07  | H1 — One Object per Entity      | [en/07-h1-object-per-entity.md](docs/en/07-h1-object-per-entity.md) | [es/07-h1-objeto-por-ente.md](docs/es/07-h1-objeto-por-ente.md) |
 | 08  | H2 — Create Objects Complete    | [en/08-h2-complete-objects.md](docs/en/08-h2-complete-objects.md) | [es/08-h2-objetos-completos.md](docs/es/08-h2-objetos-completos.md) |
+| 09  | H3 — Only Create Valid Objects  | [en/09-h3-valid-objects.md](docs/en/09-h3-valid-objects.md) | [es/09-h3-objetos-validos.md](docs/es/09-h3-objetos-validos.md) |
 
 ## Structure of each document
 

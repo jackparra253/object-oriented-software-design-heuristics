@@ -19,6 +19,7 @@ translations of the same content.
 | Why Heuristics, Not Principles or Rules?        | `docs/en/06-why-heuristics.md`        |
 | H1 — One Object per Entity                      | `docs/en/07-h1-object-per-entity.md`  |
 | H2 — Create Objects Complete                    | `docs/en/08-h2-complete-objects.md`   |
+| H3 — Only Create Valid Objects                  | `docs/en/09-h3-valid-objects.md`      |
 
 ## Working principles (summary)
 
@@ -62,6 +63,11 @@ These come from the documents above; the documents are the source of truth.
 19. **H2 — create objects complete.** An object must be valid and faithful from the moment it exists;
     require what it needs in its constructor, avoid post-construction setters and temporal coupling.
     Uninitialized fields signal "split into two objects"; use a Builder for complex construction.
+20. **H3 — only create valid objects.** Make invalid objects impossible to construct and fail fast on
+    bad creation. Put validation in the domain model (one rule serves REST, batch, and UI alike), not
+    at the edges; signal errors with exceptions, not return codes. Validate in an instance-creation
+    method (ideally a polymorphic class method), not the raw constructor. Choose SOFE vs. collect-all
+    errors to fit the consumer (collect-all for UIs).
 
 ## Conventions
 
