@@ -20,6 +20,7 @@ Documents are split by language into separate folders: [`docs/en`](docs/en) (pri
 | 07  | H1 — One Object per Entity      | [en/07-h1-object-per-entity.md](docs/en/07-h1-object-per-entity.md) | [es/07-h1-objeto-por-ente.md](docs/es/07-h1-objeto-por-ente.md) |
 | 08  | H2 — Create Objects Complete    | [en/08-h2-complete-objects.md](docs/en/08-h2-complete-objects.md) | [es/08-h2-objetos-completos.md](docs/es/08-h2-objetos-completos.md) |
 | 09  | H3 — Only Create Valid Objects  | [en/09-h3-valid-objects.md](docs/en/09-h3-valid-objects.md) | [es/09-h3-objetos-validos.md](docs/es/09-h3-objetos-validos.md) |
+| 10  | H4 — Don't Use Null             | [en/10-h4-no-null.md](docs/en/10-h4-no-null.md) | [es/10-h4-no-usar-null.md](docs/es/10-h4-no-usar-null.md) |
 
 ## Structure of each document
 

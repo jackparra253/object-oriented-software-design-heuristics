@@ -20,6 +20,7 @@ translations of the same content.
 | H1 — One Object per Entity                      | `docs/en/07-h1-object-per-entity.md`  |
 | H2 — Create Objects Complete                    | `docs/en/08-h2-complete-objects.md`   |
 | H3 — Only Create Valid Objects                  | `docs/en/09-h3-valid-objects.md`      |
+| H4 — Don't Use Null                             | `docs/en/10-h4-no-null.md`            |
 
 ## Working principles (summary)
 
@@ -68,6 +69,12 @@ These come from the documents above; the documents are the source of truth.
     at the edges; signal errors with exceptions, not return codes. Validate in an instance-creation
     method (ideally a polymorphic class method), not the raw constructor. Choose SOFE vs. collect-all
     errors to fit the consumer (collect-all for UIs).
+21. **H4 — don't use null/nil.** `null` breaks H1 by meaning many things at once (uninitialized, "no
+    value", "nothing"); model absence as an object instead. Replace `if x.nil?` with polymorphism via
+    a Null Object (name it for the domain — `NotProvidedAddress`, not `NullAddress`). In statically
+    typed languages make "maybe absent" explicit with Optional/Maybe. Keep absence inside the object
+    (Explicit Absent Message over safe-navigation `&.`); don't write defensive null-checks on
+    parameters.
 
 ## Conventions
 
