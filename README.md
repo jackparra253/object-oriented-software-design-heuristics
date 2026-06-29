@@ -25,6 +25,16 @@ Documents are split by language into separate folders: [`docs/en`](docs/en) (pri
 | 11  | H5 — Favor Immutable Objects    | [en/11-h5-immutable-objects.md](docs/en/11-h5-immutable-objects.md) | [es/11-h5-objetos-inmutables.md](docs/es/11-h5-objetos-inmutables.md) |
 | 12  | H6 — Don't Break Encapsulation  | [en/12-h6-encapsulation.md](docs/en/12-h6-encapsulation.md) | [es/12-h6-encapsulamiento.md](docs/es/12-h6-encapsulamiento.md) |
 
+## Additional material (practices, not heuristics)
+
+Complementary practices that support the model. They are not design heuristics; apply them as
+day-to-day practices.
+
+| #   | Topic                          | English                                                          | Español                                                       |
+| --- | ------------------------------ | --------------------------------------------------------------- | ------------------------------------------------------------- |
+| 13  | TDD — Test-Driven Development   | [en/13-tdd.md](docs/en/13-tdd.md)                               | [es/13-tdd.md](docs/es/13-tdd.md)                             |
+| 14  | Naming — Variables and Classes  | [en/14-naming.md](docs/en/14-naming.md)                         | [es/14-nombramiento.md](docs/es/14-nombramiento.md)           |
+
 ## Structure of each document
 
 1. **Working definition** — the concept stated as a usable definition.

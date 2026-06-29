@@ -25,6 +25,13 @@ translations of the same content.
 | H5 — Favor Immutable Objects                    | `docs/en/11-h5-immutable-objects.md`  |
 | H6 — Don't Break Encapsulation                  | `docs/en/12-h6-encapsulation.md`      |
 
+### Additional material (practices, not heuristics)
+
+| Topic                                           | Document                              |
+| ----------------------------------------------- | ------------------------------------- |
+| TDD — Test-Driven Development                    | `docs/en/13-tdd.md`                   |
+| Naming — Variables and Classes                  | `docs/en/14-naming.md`                |
+
 ## Working principles (summary)
 
 These come from the documents above; the documents are the source of truth.
@@ -91,6 +98,12 @@ These come from the documents above; the documents are the source of truth.
     exposing data; don't add getters/setters indiscriminately. When returning internals, prefer
     immutable objects, copies, or wrappers (none removes the coupling). Respect encapsulation even
     when the language (per-class privacy, weak modifiers) lets you break it.
+
+**Additional practices (not heuristics).** Beyond the numbered guidance above, apply two supporting
+practices: **TDD** (`docs/en/13-tdd.md`) — red/green/refactor in short cycles; the refactor step is
+where you name abstractions; it embodies the learning loop (principle 13). **Naming**
+(`docs/en/14-naming.md`) — programming is the art of naming; name entities for what they are (serves
+the descriptive axis and H1); avoid generic/"noise" names; give nameless objects a class.
 
 ## Conventions
 
