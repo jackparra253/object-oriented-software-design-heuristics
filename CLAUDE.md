@@ -13,6 +13,7 @@ translations of the same content.
 | ----------------------------------------------- | ------------------------------------- |
 | What Is Software?                               | `docs/en/01-what-is-software.md`      |
 | Where Is the Model? (Source Code Is the Design) | `docs/en/02-where-is-the-model.md`    |
+| What Makes a Good Model? (Three Axes)           | `docs/en/03-good-model.md`            |
 
 ## Working principles (summary)
 
@@ -32,6 +33,11 @@ These come from the documents above; the documents are the source of truth.
 9. **The build is free; the design is the cost.** Compilation produces the executable; effort and
    estimates belong on the code. Treat testing and debugging as design (validation and refinement).
 10. **The model is dynamic.** It executes and its state changes over time; design accordingly.
+11. **Judge a model on three axes:** implementation (how it executes), descriptive (how
+    understandable it is — names, domain language, habitability), and functional (how faithfully it
+    represents the domain).
+12. **Aim for a 1:1 domain–model correspondence.** New domain cases should be added, not patched in;
+    one domain change should map to one model change (open–closed).
 
 ## Conventions
 
