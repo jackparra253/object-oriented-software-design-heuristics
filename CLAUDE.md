@@ -11,6 +11,7 @@ translations of the same content.
 
 | Topic                                           | Document                              |
 | ----------------------------------------------- | ------------------------------------- |
+| Overview (15-min read of the whole guide)       | `docs/en/00-overview.md`              |
 | What Is Software?                               | `docs/en/01-what-is-software.md`      |
 | Where Is the Model? (Source Code Is the Design) | `docs/en/02-where-is-the-model.md`    |
 | What Makes a Good Model? (Three Axes)           | `docs/en/03-good-model.md`            |
