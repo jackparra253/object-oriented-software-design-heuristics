@@ -22,6 +22,7 @@ Documents are split by language into separate folders: [`docs/en`](docs/en) (pri
 | 09  | H3 — Only Create Valid Objects  | [en/09-h3-valid-objects.md](docs/en/09-h3-valid-objects.md) | [es/09-h3-objetos-validos.md](docs/es/09-h3-objetos-validos.md) |
 | 10  | H4 — Don't Use Null             | [en/10-h4-no-null.md](docs/en/10-h4-no-null.md) | [es/10-h4-no-usar-null.md](docs/es/10-h4-no-usar-null.md) |
 | 11  | H5 — Favor Immutable Objects    | [en/11-h5-immutable-objects.md](docs/en/11-h5-immutable-objects.md) | [es/11-h5-objetos-inmutables.md](docs/es/11-h5-objetos-inmutables.md) |
+| 12  | H6 — Don't Break Encapsulation  | [en/12-h6-encapsulation.md](docs/en/12-h6-encapsulation.md) | [es/12-h6-encapsulamiento.md](docs/es/12-h6-encapsulamiento.md) |
 
 ## Structure of each document
 

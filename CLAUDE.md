@@ -22,6 +22,7 @@ translations of the same content.
 | H3 — Only Create Valid Objects                  | `docs/en/09-h3-valid-objects.md`      |
 | H4 — Don't Use Null                             | `docs/en/10-h4-no-null.md`            |
 | H5 — Favor Immutable Objects                    | `docs/en/11-h5-immutable-objects.md`  |
+| H6 — Don't Break Encapsulation                  | `docs/en/12-h6-encapsulation.md`      |
 
 ## Working principles (summary)
 
@@ -82,6 +83,13 @@ These come from the documents above; the documents are the source of truth.
     Immutables free you from worrying about time and from the consequences of handing out the object.
     For genuinely mutable objects: avoid setters, make changes atomic and valid (H3), let the owner
     control mutation, hand out copies/immutable views, and protect identity, equality, and hashing.
+23. **H6 — don't break encapsulation.** Encapsulating is assigning responsibilities correctly, not
+    just hiding fields; information hiding is what's left once you remove the responsibilities.
+    Breaking it creates coupling and strips logic from the object into callers (repeated code). Apply
+    "Tell, Don't Ask": add a message for what you need (`isExpiredOn`, `isOwnedBy`) instead of
+    exposing data; don't add getters/setters indiscriminately. When returning internals, prefer
+    immutable objects, copies, or wrappers (none removes the coupling). Respect encapsulation even
+    when the language (per-class privacy, weak modifiers) lets you break it.
 
 ## Conventions
 
