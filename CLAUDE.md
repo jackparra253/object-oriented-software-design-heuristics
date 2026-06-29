@@ -15,6 +15,7 @@ translations of the same content.
 | Where Is the Model? (Source Code Is the Design) | `docs/en/02-where-is-the-model.md`    |
 | What Makes a Good Model? (Three Axes)           | `docs/en/03-good-model.md`            |
 | Software Development as a Learning Process       | `docs/en/04-software-development.md`  |
+| What Is an Object?                              | `docs/en/05-what-is-an-object.md`     |
 
 ## Working principles (summary)
 
@@ -45,6 +46,9 @@ These come from the documents above; the documents are the source of truth.
     shift over time; design so change is cheap and learning capacity is preserved.
 15. **Shorten the feedback loop.** Immediate feedback (fast tests, live console) is the engine of
     learning; apply the scientific method — characterize, hypothesize, predict, experiment.
+16. **An object is the essential representation of a domain entity — not "code + data".** Define it
+    by the messages it responds to (its protocol), not by its internal data; capture the essence and
+    remove the incidental.
 
 ## Conventions
 

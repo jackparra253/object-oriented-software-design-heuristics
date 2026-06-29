@@ -15,6 +15,7 @@ Documents are split by language into separate folders: [`docs/en`](docs/en) (pri
 | 02  | Where Is the Model? (Source Code Is the Design) | [en/02-where-is-the-model.md](docs/en/02-where-is-the-model.md)  | [es/02-cual-es-el-modelo.md](docs/es/02-cual-es-el-modelo.md) |
 | 03  | What Makes a Good Model? (Three Axes) | [en/03-good-model.md](docs/en/03-good-model.md)                  | [es/03-buen-modelo.md](docs/es/03-buen-modelo.md)            |
 | 04  | Software Development as a Learning Process | [en/04-software-development.md](docs/en/04-software-development.md) | [es/04-desarrollo-de-software.md](docs/es/04-desarrollo-de-software.md) |
+| 05  | What Is an Object?              | [en/05-what-is-an-object.md](docs/en/05-what-is-an-object.md)    | [es/05-que-es-un-objeto.md](docs/es/05-que-es-un-objeto.md)  |
 
 ## Structure of each document
 
