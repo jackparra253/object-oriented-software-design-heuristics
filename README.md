@@ -42,6 +42,12 @@ motivate them. The heuristics say *how to model faithfully*; the patterns are *p
 solutions* to recurring design problems. See [`design-patterns`](design-patterns/README.md)
 ([Español](design-patterns/README.es.md)).
 
+## Skills — Knowledge Graph (MCP)
+
+A catalog of MCP skills to autonomously read this repository and build a **knowledge graph** of its
+heuristics and design patterns, using a multi-server MCP architecture (GitHub extractor + Memory /
+Knowledge Graph). See [`skills`](skills/README.md).
+
 ## Structure of each document
 
 1. **Working definition** — the concept stated as a usable definition.
