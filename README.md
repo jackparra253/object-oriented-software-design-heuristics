@@ -35,6 +35,13 @@ day-to-day practices.
 | 13  | TDD — Test-Driven Development   | [en/13-tdd.md](docs/en/13-tdd.md)                               | [es/13-tdd.md](docs/es/13-tdd.md)                             |
 | 14  | Naming — Variables and Classes  | [en/14-naming.md](docs/en/14-naming.md)                         | [es/14-nombramiento.md](docs/es/14-nombramiento.md)           |
 
+## Design patterns
+
+A companion catalog of the 23 classic (Gang of Four) design patterns and the design principles that
+motivate them. The heuristics say *how to model faithfully*; the patterns are *proven, reusable
+solutions* to recurring design problems. See [`design-patterns`](design-patterns/README.md)
+([Español](design-patterns/README.es.md)).
+
 ## Structure of each document
 
 1. **Working definition** — the concept stated as a usable definition.

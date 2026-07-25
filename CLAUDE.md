@@ -32,6 +32,21 @@ translations of the same content.
 | TDD — Test-Driven Development                    | `docs/en/13-tdd.md`                   |
 | Naming — Variables and Classes                  | `docs/en/14-naming.md`                |
 
+### Design patterns (companion catalog)
+
+Reusable solutions to recurring design problems, plus the principles behind them. Patterns are tools,
+not rules: reach for one only when its problem is real. They serve the model — never introduce a
+pattern where the problem does not exist.
+
+| Topic                                           | Document                                      |
+| ----------------------------------------------- | --------------------------------------------- |
+| Overview + the 23 patterns                       | `design-patterns/en/00-overview.md`           |
+| What Is a Design Pattern?                        | `design-patterns/en/01-what-is-a-design-pattern.md` |
+| Software Design Principles (3 + SOLID)           | `design-patterns/en/02-design-principles.md`  |
+| Creational Patterns                              | `design-patterns/en/03-creational-patterns.md` |
+| Structural Patterns                              | `design-patterns/en/04-structural-patterns.md` |
+| Behavioral Patterns                              | `design-patterns/en/05-behavioral-patterns.md` |
+
 ## Working principles (summary)
 
 These come from the documents above; the documents are the source of truth.
@@ -105,9 +120,16 @@ where you name abstractions; it embodies the learning loop (principle 13). **Nam
 (`docs/en/14-naming.md`) — programming is the art of naming; name entities for what they are (serves
 the descriptive axis and H1); avoid generic/"noise" names; give nameless objects a class.
 
+**Design patterns (companion catalog).** The 23 classic (GoF) patterns and the principles behind them
+live under `design-patterns/` (`design-patterns/en/00-overview.md`). Patterns are proven solutions to
+recurring design problems, but treat them as heuristics: apply each in context and reach for one only
+when its problem is real; a pattern without its problem is accidental complexity. Patterns serve the
+faithful model — they never replace it.
+
 ## Conventions
 
-- Documentation lives in `docs/`, split by language: `docs/en` (primary), `docs/es`.
+- Documentation lives in `docs/`, split by language: `docs/en` (primary), `docs/es`. The companion
+  design-patterns catalog lives in `design-patterns/`, split the same way (`en`/`es`).
 - Each document is self-contained: definitions and principles in the body, sources at the end.
 - When adding a topic, create both language versions and update the table in `README.md` and the
   table above.
