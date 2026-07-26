@@ -1,6 +1,6 @@
 ---
 name: development-as-learning
-description: El desarrollo como proceso de aprendizaje iterativo, con el cambio como esencial y no accidental. Úsala al planificar trabajo con requisitos poco claros, al justificar iteración frente a big design up front, al discutir deuda técnica o capacidad de cambio, o al diseñar el ciclo de feedback (tests rápidos, consola viva).
+description: El desarrollo como aprendizaje iterativo; el cambio es esencial, no accidental. Requisitos poco claros, iteración vs. big design up front, deuda técnica, diseñar el ciclo de feedback.
 ---
 
 # El desarrollo de software como proceso de aprendizaje

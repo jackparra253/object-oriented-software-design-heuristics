@@ -1,6 +1,6 @@
 ---
 name: what-is-an-object
-description: Un objeto es la representación esencial de un ente del dominio, definido por los mensajes a los que responde y no por sus datos. Úsala al diseñar la interfaz pública de una clase, al decidir qué modelar y qué dejar afuera, ante structs anémicos que son solo datos, o al elegir entre exponer campos y ofrecer comportamiento.
+description: Un objeto se define por los mensajes que responde, no por sus datos. Diseñar la interfaz pública, structs anémicos, elegir entre exponer campos y ofrecer comportamiento.
 ---
 
 # ¿Qué es un objeto?

@@ -1,6 +1,6 @@
 ---
 name: tdd
-description: Ciclo red/green/refactor en pasos cortos, con el refactor como el momento de nombrar abstracciones. Úsala al empezar una funcionalidad nueva, al reproducir un bug antes de arreglarlo, al decidir qué testear y a qué granularidad, o al evaluar si una suite de tests es buena (Test Desiderata).
+description: Ciclo red/green/refactor en pasos cortos; el refactor es donde se nombran las abstracciones. Empezar una funcionalidad, reproducir un bug antes de arreglarlo, qué testear y con qué granularidad, Test Desiderata.
 ---
 
 # TDD — Desarrollo guiado por tests

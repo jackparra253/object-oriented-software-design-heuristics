@@ -1,6 +1,6 @@
 ---
 name: naming
-description: Nombrar variables, clases y mensajes por lo que son en el dominio. Úsala ante nombres genéricos (data, info, manager, helper, processor, utils, temp, item, value), abreviaturas, nombres que describen el tipo o la implementación en vez del ente, objetos sin nombre (mapas y tuplas anónimas), o al hacer el paso de refactor de TDD.
+description: Nombrar por lo que las cosas son en el dominio. Nombres genéricos (data, info, manager, helper, utils, temp), abreviaturas, nombres que describen el tipo o la implementación, objetos sin nombre.
 ---
 
 # Nombramiento — Variables y clases

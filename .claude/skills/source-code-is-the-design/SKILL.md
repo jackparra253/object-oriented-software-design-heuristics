@@ -1,6 +1,6 @@
 ---
 name: source-code-is-the-design
-description: El código fuente es el diseño; programar es diseñar. Úsala al discutir documentación y diagramas como fuente de verdad, al estimar (dónde está realmente el costo), al justificar tiempo de refactor o de tests, o cuando alguien trata el diseño como una fase previa a la programación.
+description: El código fuente es el diseño; programar es diseñar. Diagramas y documentación como fuente de verdad, dónde está el costo al estimar, justificar refactor o tests, diseño como fase previa.
 ---
 
 # ¿Cuál es el modelo? — El código fuente es el diseño

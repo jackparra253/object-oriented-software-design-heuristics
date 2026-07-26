@@ -1,6 +1,6 @@
 ---
 name: h5-immutable-objects
-description: Inmutable por defecto; mutable solo si el ente del dominio realmente cambia. Úsala ante setters, estado compartido y mutado por varios colaboradores, copias defensivas, bugs de aliasing, objetos usados como clave de hash o de diccionario, structs/objetos de configuración que alguien modifica, o diseño bajo concurrencia.
+description: Inmutable por defecto; mutable solo si el ente cambia. Setters, estado compartido mutado, copias defensivas, aliasing, claves de hash o diccionario, concurrencia.
 ---
 
 # H5 — Favorecer objetos inmutables

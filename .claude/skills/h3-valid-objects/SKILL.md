@@ -1,6 +1,6 @@
 ---
 name: h3-valid-objects
-description: Hacer imposible construir objetos inválidos y fallar rápido. Úsala al decidir dónde poner las validaciones (modelo de dominio vs. controller, DTO, formulario o esquema de entrada), al escribir constructores o factory methods, ante validaciones duplicadas entre API REST, batch y UI, o al elegir entre excepciones y códigos de retorno.
+description: Hacer imposible construir objetos inválidos y fallar rápido. Dónde validar (dominio vs. controller/DTO/formulario), factory methods, validación duplicada entre REST/batch/UI, excepciones vs. códigos de retorno.
 ---
 
 # H3 — Solo crear objetos válidos

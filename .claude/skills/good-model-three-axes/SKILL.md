@@ -1,6 +1,6 @@
 ---
 name: good-model-three-axes
-description: Juzgar un modelo por tres ejes — implementativo, descriptivo y funcional — anclando en el funcional. Úsala al revisar código o hacer code review, al comparar dos diseños alternativos, al justificar por qué un diseño "que funciona" igual es malo, o al evaluar correspondencia 1:1 entre dominio y modelo (abierto–cerrado).
+description: Juzgar un modelo por tres ejes —implementativo, descriptivo, funcional— anclando en el funcional. Code review, comparar dos diseños, correspondencia 1:1 dominio-modelo, abierto-cerrado.
 ---
 
 # ¿Qué es un buen modelo? — Los tres ejes

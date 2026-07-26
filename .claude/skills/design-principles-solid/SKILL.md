@@ -1,6 +1,6 @@
 ---
 name: design-principles-solid
-description: Los tres principios fundamentales (encapsular lo que varía, programar hacia una interfaz, composición sobre herencia) y SOLID. Úsala al discutir acoplamiento, jerarquías de herencia profundas, inyección de dependencias, interfaces gordas, clases que hacen demasiado, o al justificar por qué un diseño resiste el cambio.
+description: Encapsular lo que varía, programar hacia interfaces, composición sobre herencia, y SOLID. Acoplamiento, jerarquías profundas, inyección de dependencias, interfaces gordas, clases que hacen demasiado.
 ---
 
 # Principios de diseño de software

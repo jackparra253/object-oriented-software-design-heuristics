@@ -1,6 +1,6 @@
 ---
 name: creational-patterns
-description: Los cinco patrones creacionales GoF — Factory Method, Abstract Factory, Builder, Prototype, Singleton. Úsala ante construcción compleja o condicional, constructores con muchos parámetros, `new` esparcido por el código, familias de objetos que deben combinarse de forma coherente, o clonación de objetos.
+description: Factory Method, Abstract Factory, Builder, Prototype, Singleton. Construcción compleja o condicional, constructores con muchos parámetros, `new` esparcido, familias de objetos, clonación.
 ---
 
 # Patrones creacionales

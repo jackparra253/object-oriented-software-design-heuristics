@@ -1,135 +1,52 @@
 # CLAUDE.md
 
-This repository holds foundational design context for building software with objects. The
-documents under `docs/` define what software is and how to design it. **Use them as the basis for
-every design and implementation decision in this repo.**
+This repository holds foundational design context for building software with objects: what software
+is, what makes a model good, and six heuristics (H1–H6) for designing with objects — plus a companion
+catalog of the 23 classic (GoF) design patterns.
 
-## Design context to apply
+**Use this guidance as the basis for every design and implementation decision in this repo**, and for
+any code you write or review here. When the domain and the framework disagree, favor the domain.
 
-Read and apply these before designing or writing code. English is primary; the `es/` files are
-translations of the same content.
+## The guidance lives in skills — invoke them
 
-| Topic                                           | Document                              |
-| ----------------------------------------------- | ------------------------------------- |
-| Overview (15-min read of the whole guide)       | `docs/en/00-overview.md`              |
-| What Is Software?                               | `docs/en/01-what-is-software.md`      |
-| Where Is the Model? (Source Code Is the Design) | `docs/en/02-where-is-the-model.md`    |
-| What Makes a Good Model? (Three Axes)           | `docs/en/03-good-model.md`            |
-| Software Development as a Learning Process       | `docs/en/04-software-development.md`  |
-| What Is an Object?                              | `docs/en/05-what-is-an-object.md`     |
-| Why Heuristics, Not Principles or Rules?        | `docs/en/06-why-heuristics.md`        |
-| H1 — One Object per Entity                      | `docs/en/07-h1-object-per-entity.md`  |
-| H2 — Create Objects Complete                    | `docs/en/08-h2-complete-objects.md`   |
-| H3 — Only Create Valid Objects                  | `docs/en/09-h3-valid-objects.md`      |
-| H4 — Don't Use Null                             | `docs/en/10-h4-no-null.md`            |
-| H5 — Favor Immutable Objects                    | `docs/en/11-h5-immutable-objects.md`  |
-| H6 — Don't Break Encapsulation                  | `docs/en/12-h6-encapsulation.md`      |
+The full material is packaged as skills in `.claude/skills/`, one per document. **Invoke the skill
+rather than reading `docs/` or `design-patterns/` directly**: each skill is a short operative summary
+that points to its full documents when you need the detail.
 
-### Additional material (practices, not heuristics)
+Start with **`designing-with-objects`** — it routes to the right heuristic, practice or pattern.
 
-| Topic                                           | Document                              |
-| ----------------------------------------------- | ------------------------------------- |
-| TDD — Test-Driven Development                    | `docs/en/13-tdd.md`                   |
-| Naming — Variables and Classes                  | `docs/en/14-naming.md`                |
+## The frame (always on)
 
-### Design patterns (companion catalog)
+The six heuristics have their own skills, and those descriptions are already loaded — invoke the one
+that matches what you are doing. What follows is only the framing, which has no natural trigger:
 
-Reusable solutions to recurring design problems, plus the principles behind them. Patterns are tools,
-not rules: reach for one only when its problem is real. They serve the model — never introduce a
-pattern where the problem does not exist.
+- **Software is a computable model of a problem domain of reality** — not "a set of instructions".
+  Good software is a good model, and **the source code is the design**: programming is designing, and
+  testing and debugging are design too.
+- **Judge a model on three axes** — implementation (how it executes), descriptive (how understandable
+  it is), functional (how faithfully it represents the domain) — anchored on the **functional**. Aim
+  for a 1:1 domain–model correspondence, so a new domain case is *added*, not patched in.
+- **Development is a learning process.** Change is essential, not accidental; work iteratively and
+  keep the feedback loop short.
+- **All of this is heuristics, not rules.** Apply each in context, expect exceptions, weigh cost vs.
+  benefit, and think critically — never follow guidance by authority. The same holds for patterns:
+  never introduce one where its problem does not exist.
 
-| Topic                                           | Document                                      |
-| ----------------------------------------------- | --------------------------------------------- |
-| Overview + the 23 patterns                       | `design-patterns/en/00-overview.md`           |
-| What Is a Design Pattern?                        | `design-patterns/en/01-what-is-a-design-pattern.md` |
-| Software Design Principles (3 + SOLID)           | `design-patterns/en/02-design-principles.md`  |
-| Creational Patterns                              | `design-patterns/en/03-creational-patterns.md` |
-| Structural Patterns                              | `design-patterns/en/04-structural-patterns.md` |
-| Behavioral Patterns                              | `design-patterns/en/05-behavioral-patterns.md` |
+## Layout
 
-## Working principles (summary)
+| Content                                                       | Location                              |
+| ------------------------------------------------------------- | ------------------------------------- |
+| The guide — what software is, H1–H6, TDD, naming              | `docs/en`, `docs/es`                  |
+| Design patterns — the 23 GoF patterns and the principles behind them | `design-patterns/en`, `design-patterns/es` |
+| Skill catalog — one skill per document                        | `.claude/skills/`                     |
 
-These come from the documents above; the documents are the source of truth.
-
-1. **Software is a computable model of a problem domain of reality** — not "a set of
-   instructions". Design from this definition.
-2. **Good software is a good model.** Judge code first by how faithfully it represents the domain.
-3. **Organize code around the domain, not the framework.** When the two conflict, favor the domain.
-4. **Model the relevant business domain only** — slice reality on purpose.
-5. **A model represents; it is not the thing.** Keep the map distinct from the territory.
-6. **Specify the *what* and implement the *how*.** Software must be executable.
-7. **Design is the deliberate move from an ambiguous, contextual domain to a formal, executable
-   model.**
-8. **Source code is the design.** It is the single source of truth for the model; programming is
-   designing. Diagrams and docs only visualize it.
-9. **The build is free; the design is the cost.** Compilation produces the executable; effort and
-   estimates belong on the code. Treat testing and debugging as design (validation and refinement).
-10. **The model is dynamic.** It executes and its state changes over time; design accordingly.
-11. **Judge a model on three axes:** implementation (how it executes), descriptive (how
-    understandable it is — names, domain language, habitability), and functional (how faithfully it
-    represents the domain).
-12. **Aim for a 1:1 domain–model correspondence.** New domain cases should be added, not patched in;
-    one domain change should map to one model change (open–closed).
-13. **Development is a learning process.** Work iteratively and incrementally; ground knowledge in
-    concrete facts; make tacit domain knowledge explicit in the model.
-14. **Change is essential, not accidental.** The domain, your understanding, and your modeling all
-    shift over time; design so change is cheap and learning capacity is preserved.
-15. **Shorten the feedback loop.** Immediate feedback (fast tests, live console) is the engine of
-    learning; apply the scientific method — characterize, hypothesize, predict, experiment.
-16. **An object is the essential representation of a domain entity — not "code + data".** Define it
-    by the messages it responds to (its protocol), not by its internal data; capture the essence and
-    remove the incidental.
-17. **All design guidance here is heuristics, not rules.** Apply each in context, expect exceptions,
-    weigh cost vs. benefit, and think critically — never follow guidance dogmatically or by
-    authority.
-18. **H1 — one object per entity (faithful representation).** Keep a 1:1 correspondence: never split
-    one entity across many fields, never overload one object/primitive to mean many entities (fix
-    Primitive Obsession). Name the entity for what it really is; prefer the right existing type over
-    a needless new class.
-19. **H2 — create objects complete.** An object must be valid and faithful from the moment it exists;
-    require what it needs in its constructor, avoid post-construction setters and temporal coupling.
-    Uninitialized fields signal "split into two objects"; use a Builder for complex construction.
-20. **H3 — only create valid objects.** Make invalid objects impossible to construct and fail fast on
-    bad creation. Put validation in the domain model (one rule serves REST, batch, and UI alike), not
-    at the edges; signal errors with exceptions, not return codes. Validate in an instance-creation
-    method (ideally a polymorphic class method), not the raw constructor. Choose SOFE vs. collect-all
-    errors to fit the consumer (collect-all for UIs).
-21. **H4 — don't use null/nil.** `null` breaks H1 by meaning many things at once (uninitialized, "no
-    value", "nothing"); model absence as an object instead. Replace `if x.nil?` with polymorphism via
-    a Null Object (name it for the domain — `NotProvidedAddress`, not `NullAddress`). In statically
-    typed languages make "maybe absent" explicit with Optional/Maybe. Keep absence inside the object
-    (Explicit Absent Message over safe-navigation `&.`); don't write defensive null-checks on
-    parameters.
-22. **H5 — favor immutable objects.** Mutability is a modeling choice, not a technical one: an object
-    is mutable iff the entity it represents is. Default to immutable (numbers, dates, invoices,
-    strings…); model change as a sequence of events producing new immutable objects when you can.
-    Immutables free you from worrying about time and from the consequences of handing out the object.
-    For genuinely mutable objects: avoid setters, make changes atomic and valid (H3), let the owner
-    control mutation, hand out copies/immutable views, and protect identity, equality, and hashing.
-23. **H6 — don't break encapsulation.** Encapsulating is assigning responsibilities correctly, not
-    just hiding fields; information hiding is what's left once you remove the responsibilities.
-    Breaking it creates coupling and strips logic from the object into callers (repeated code). Apply
-    "Tell, Don't Ask": add a message for what you need (`isExpiredOn`, `isOwnedBy`) instead of
-    exposing data; don't add getters/setters indiscriminately. When returning internals, prefer
-    immutable objects, copies, or wrappers (none removes the coupling). Respect encapsulation even
-    when the language (per-class privacy, weak modifiers) lets you break it.
-
-**Additional practices (not heuristics).** Beyond the numbered guidance above, apply two supporting
-practices: **TDD** (`docs/en/13-tdd.md`) — red/green/refactor in short cycles; the refactor step is
-where you name abstractions; it embodies the learning loop (principle 13). **Naming**
-(`docs/en/14-naming.md`) — programming is the art of naming; name entities for what they are (serves
-the descriptive axis and H1); avoid generic/"noise" names; give nameless objects a class.
-
-**Design patterns (companion catalog).** The 23 classic (GoF) patterns and the principles behind them
-live under `design-patterns/` (`design-patterns/en/00-overview.md`). Patterns are proven solutions to
-recurring design problems, but treat them as heuristics: apply each in context and reach for one only
-when its problem is real; a pattern without its problem is accidental complexity. Patterns serve the
-faithful model — they never replace it.
+English is primary; the `es/` files are translations of the same content. Full navigation tables, with
+links to every document in both languages, are in `README.md`.
 
 ## Conventions
 
-- Documentation lives in `docs/`, split by language: `docs/en` (primary), `docs/es`. The companion
-  design-patterns catalog lives in `design-patterns/`, split the same way (`en`/`es`).
 - Each document is self-contained: definitions and principles in the body, sources at the end.
-- When adding a topic, create both language versions and update the table in `README.md` and the
-  table above.
+- Documents and skills are **1:1**. A skill is a short operative summary plus a pointer to its
+  documents — keep it that way; never let a skill grow into a copy of the document it summarizes.
+- When adding a topic: create both language versions, add the matching skill in `.claude/skills/`, and
+  update the tables in `README.md`.

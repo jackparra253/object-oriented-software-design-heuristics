@@ -1,6 +1,6 @@
 ---
 name: h1-object-per-entity
-description: Un objeto por cada ente del dominio, con correspondencia 1:1. Úsala al detectar Primitive Obsession, datos de un mismo concepto repartidos en varios campos (mes/año, calle/ciudad/código postal), strings o enteros que codifican un concepto real, arrays pelados que reemplazan una abstracción, o una clase que representa dos cosas a la vez.
+description: Un objeto por ente del dominio, correspondencia 1:1. Primitive Obsession, un concepto repartido en varios campos (mes/año), strings o enteros que codifican un ente, una clase que representa dos cosas.
 ---
 
 # H1 — Un objeto por ente (representación fiel)

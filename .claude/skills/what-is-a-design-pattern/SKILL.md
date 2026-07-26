@@ -1,6 +1,6 @@
 ---
 name: what-is-a-design-pattern
-description: Qué es y qué no es un patrón de diseño, cómo se describe y cómo se relaciona con las heurísticas H1–H6. Úsala al evaluar si introducir un patrón está justificado, al distinguir patrones con estructura parecida e intención distinta, o cuando alguien copia la estructura de un patrón sin tener su problema.
+description: Qué es y qué no es un patrón, y cómo se relaciona con H1–H6. Evaluar si introducir un patrón está justificado, distinguir intención de estructura, copiar un patrón sin su problema.
 ---
 
 # ¿Qué es un patrón de diseño?

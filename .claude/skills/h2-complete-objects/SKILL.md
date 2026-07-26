@@ -1,6 +1,6 @@
 ---
 name: h2-complete-objects
-description: Los objetos se crean completos, sin fases posteriores de armado. Úsala ante setters post-construcción, constructores vacíos o sin argumentos, campos sin inicializar, acoplamiento temporal (métodos que deben llamarse en cierto orden), objetos que se terminan de configurar después del `new`, o patrones init/setUp/configure separados de la creación.
+description: Objetos completos desde su creación. Setters post-construcción, constructores vacíos, campos sin inicializar, acoplamiento temporal, init/setUp/configure separados del `new`.
 ---
 
 # H2 — Crear objetos completos

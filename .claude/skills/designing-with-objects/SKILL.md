@@ -1,6 +1,6 @@
 ---
 name: designing-with-objects
-description: Punto de entrada al catálogo de diseño con objetos — enruta hacia la heurística o el patrón que corresponde. Úsala cuando la pregunta es amplia ("¿cómo diseño esto?", "revisá este diseño", "¿qué está mal en este modelo?"), cuando no sabés qué heurística aplica, o para el encuadre general antes de entrar en detalle.
+description: Punto de entrada al catálogo: enruta a la heurística o patrón que corresponde. Preguntas amplias de diseño, revisar un modelo, o cuando no sabés qué heurística aplica.
 ---
 
 # Diseñar software con objetos — índice

@@ -1,6 +1,6 @@
 ---
 name: h4-no-null
-description: Modelar la ausencia como un objeto en vez de usar null. Úsala ante null, nil, None, nullptr, chequeos `if x == null` / `if x.nil?`, safe navigation (`?.`, `&.`), NullPointerException, campos opcionales, valores "no informados", punteros nilables como valor de retorno, o Optional/Maybe mal usados.
+description: Modelar la ausencia como objeto. null, nil, None, nullptr, `if x == null`, safe navigation (`?.`, `&.`), NullPointerException, campos opcionales, punteros nilables, Optional/Maybe.
 ---
 
 # H4 — No usar null

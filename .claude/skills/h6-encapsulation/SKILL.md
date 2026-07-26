@@ -1,6 +1,6 @@
 ---
 name: h6-encapsulation
-description: Asignar responsabilidades correctamente y aplicar Tell, Don't Ask. Úsala ante getters y setters indiscriminados, código que le pregunta datos a un objeto para decidir afuera, la misma lógica repetida en varios llamadores, exposición de colecciones o colaboradores internos, feature envy, o cadenas de acceso tipo `a.getB().getC().getD()`.
+description: Asignar responsabilidades y aplicar Tell, Don't Ask. Getters/setters indiscriminados, preguntar datos para decidir afuera, lógica repetida en los llamadores, exponer colecciones internas, feature envy, `a.getB().getC()`.
 ---
 
 # H6 — No romper el encapsulamiento

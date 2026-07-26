@@ -1,6 +1,6 @@
 ---
 name: what-is-software
-description: El software como modelo computable de un dominio de problema de la realidad. Úsala al decidir qué parte de la realidad modelar y con cuánto detalle, al discutir alcance o límites del dominio, al separar el modelo de la cosa modelada, o cuando el código se organiza alrededor del framework en vez del negocio.
+description: El software como modelo computable de un dominio de la realidad. Qué parte del dominio modelar y con cuánto detalle, alcance y límites, código organizado alrededor del framework en vez del negocio.
 ---
 
 # ¿Qué es el software?

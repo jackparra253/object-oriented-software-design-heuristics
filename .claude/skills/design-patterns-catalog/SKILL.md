@@ -1,6 +1,6 @@
 ---
 name: design-patterns-catalog
-description: Índice de los 23 patrones GoF con su intención en una línea, para elegir el patrón adecuado. Úsala cuando el problema suena a un patrón conocido pero no sabés cuál, para comparar patrones con estructura parecida e intención distinta, o antes de introducir un patrón — para verificar que su problema realmente existe.
+description: Índice de los 23 patrones GoF con su intención. El problema suena a un patrón conocido pero no sabés cuál, comparar patrones de estructura parecida, verificar que el problema existe.
 ---
 
 # Catálogo de patrones de diseño — índice

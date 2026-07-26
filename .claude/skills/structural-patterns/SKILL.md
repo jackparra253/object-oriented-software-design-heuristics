@@ -1,6 +1,6 @@
 ---
 name: structural-patterns
-description: Los siete patrones estructurales GoF — Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy. Úsala al integrar bibliotecas o APIs con interfaces incompatibles, al envolver un objeto para añadir comportamiento, ante estructuras de árbol, al simplificar el acceso a un subsistema complejo, o al controlar el acceso a un objeto.
+description: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy. Interfaces incompatibles, envolver un objeto para añadir comportamiento, estructuras de árbol, controlar el acceso.
 ---
 
 # Patrones estructurales

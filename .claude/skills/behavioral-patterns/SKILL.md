@@ -1,6 +1,6 @@
 ---
 name: behavioral-patterns
-description: Los diez patrones de comportamiento GoF — Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor. Úsala ante condicionales grandes sobre un tipo o un estado, algoritmos intercambiables, deshacer/rehacer, notificación de eventos, máquinas de estado, o código duplicado con un esqueleto común.
+description: Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor. Condicionales sobre tipo o estado, algoritmos intercambiables, deshacer, máquinas de estado.
 ---
 
 # Patrones de comportamiento

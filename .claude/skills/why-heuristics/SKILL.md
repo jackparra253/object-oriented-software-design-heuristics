@@ -1,6 +1,6 @@
 ---
 name: why-heuristics
-description: Por qué esta guía son heurísticas y no reglas — aplicar en contexto, esperar excepciones, sopesar costo y beneficio. Úsala cuando alguien invoca una regla de diseño como dogma o por autoridad, al justificar una excepción deliberada a H1–H6, o al discutir si un "principio" (SOLID, DRY) aplica en un caso concreto.
+description: Heurísticas, no reglas: aplicar en contexto, esperar excepciones, sopesar costo y beneficio. Reglas invocadas como dogma, justificar una excepción a H1–H6, si SOLID o DRY aplican acá.
 ---
 
 # ¿Por qué heurísticas y no principios o reglas?
