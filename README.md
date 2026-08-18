@@ -35,6 +35,16 @@ day-to-day practices.
 | 13  | TDD — Test-Driven Development   | [en/13-tdd.md](docs/en/13-tdd.md)                               | [es/13-tdd.md](docs/es/13-tdd.md)                             |
 | 14  | Naming — Variables and Classes  | [en/14-naming.md](docs/en/14-naming.md)                         | [es/14-nombramiento.md](docs/es/14-nombramiento.md)           |
 
+## Applying the heuristics in a technology
+
+Worked applications of H1–H6 to a concrete stack. The heuristics themselves are
+technology-independent; these documents show what they cost and what they look like in a real
+framework — and where the framework wins.
+
+| #   | Topic                          | English                                                          | Español                                                       |
+| --- | ------------------------------ | --------------------------------------------------------------- | ------------------------------------------------------------- |
+| 15  | Angular v22 Architecture with TDD | [en/15-angular-architecture.md](docs/en/15-angular-architecture.md) | [es/15-arquitectura-angular.md](docs/es/15-arquitectura-angular.md) |
+
 ## Design patterns
 
 A companion catalog of the 23 classic (Gang of Four) design patterns and the design principles that

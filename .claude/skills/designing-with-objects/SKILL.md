@@ -22,6 +22,7 @@ realidad** — no "un conjunto de instrucciones". De ahí se sigue todo lo demá
 | Cómo nombrar lo que acabo de extraer | `naming` |
 | Por dónde empiezo a escribir esto | `tdd` |
 | Un problema de diseño recurrente y conocido | `design-patterns-catalog` |
+| Dónde va la lógica en una app Angular | `angular-architecture` |
 
 ## El argumento, de arriba a abajo
 
